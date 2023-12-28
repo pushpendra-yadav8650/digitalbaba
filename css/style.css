@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.bg-color{
+background-color: rgb(183, 163, 163);
+}
+.bg-color2{
+    background-color: rgb(98, 205, 160);
+    }
+.bg-color{
+        background-color: rgb(57, 71, 127);
+        }
+.banner_wrapper{
+    background: url(../images/mainbg.jpg);
+    width:100%;
+    background-attachment: fixed;
+    
+    
+}
+.banner_wrapper2{
+    background: whitesmoke;
+    width:100%;
+    background-attachment: fixed; 
+     
+    
+}
+.banner_wrapper3{
+    min-height:300px;
+   background:linear-gradient(rgba(1,1,1,.5),rgba(1,1,1,.5)),url(../images/mainbg.jpg);
+  background-size:cover;
+  background-attachment:fixed;  
+    
+ }
+ .banner_wrapper5{
+    width: 100%;
+    background: url(../images/footerbg.jpg);
+    height:100%;
+    background-attachment: fixed;
+    padding-bottom: 50px; 
+    padding-top: 30px;
+    background-size: 100% 100%;
+
+ }
+ .banner_wrapper4{
+    background: url();
+ }
+.logo{
+    font-size: 30px;
+    text-shadow: 1px solid balck;
+    color:gold;
+    font-weight: bold;
+    text-shadow: .5px .5px black;
+}
+.logo2{
+    font-size: 30px;
+    
+    color:red;
+    font-weight: bold;
+    text-shadow: .5px .5px black;
+    
+}
+
+    /* font-size: 22px;
+    color:rgb(123, 109, 26);
+    text-shadow: .5px .5px black;
+    font-weight: bold;
+
+    
+
+ul a:hover{
+    display: block;
+    color:crimson
+} */
+.hg-1{
+    font-size: 40px;
+    color:white;
+    text-shadow: .5px .5xp black;
+    font-weight: bold;
+    margin-top: 150px;
+}
+   
+.hg-2{
+        font-size: 40px;
+        color:black;
+        text-shadow: .5px .5xp white;
+        font-weight: bold;
+        margin-top: 0px;
+    
+    }
+    .hg-2{
+        color:rgb(16, 16, 56);
+    }
+    .hg-3{
+        font-size: 40px;
+        color:rgb(15, 15, 36);
+        text-shadow: .5px .5xp white;
+        font-weight: bold;
+        
+    }
+    .pg-1{
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+.btnn{
+    border-radius: 30px;
+    width:150px;
+    height:50px;
+    margin-left: 30px;
+    margin-top:20px
+}
+.card{
+    height:100%;
+    width:100%;
+    box-shadow:5px 5px 5px, -10px -10px 10px rgb(176, 171, 171);
+    border:1px solid;
+
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.fnav a{
+    text-decoration: none;
+color: rgb(164, 125, 9);
+line-height: 50px;
+}
+.ftext{
+    color:rgb(22, 21, 20);
+    text-align: center;
+}
+.divider-1{
+    border: 2px solid white;
+   height:10px
+    
+}
+.btns{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.logos:hover a{
+    text-decoration: none;
+    color:red;
+}
+/*---------------------------- Media Query ---------------------*/
+
+@media screen and (max-width:676px) {
+.logos{
+    margin-left: 80px;
+    color:yellow;
+
+}
+.hg-2{
+    font-size: 30px;
+    color:black;
+    text-shadow: .5px .5xp white;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+.btns{
+    margin-left: 120px;
+}  
+.service{
+    text-align: center;
+    color:aqua;
+    text-shadow: .5px .5px solid black;
+}
+.hg-3{
+    text-align: center;
+}
+.hg-1{
+    text-align: center;
+    color:white;
+    text-shadow: .5px .5xp black;
+    font-weight: bold;
+    margin-top: -20px;
+
+}
+    
+}
+    
+
+
+
+/*---------------------------- Media Query ---------------------*/
+/*-------------------------------nav-bar------------------------*/
+/* .menu{
+    width:100%;
+    }
+    
+    .drop{
+    width:100%;
+    background:black;
+    color:white;
+    padding:10px 20px;
+    text-align:right;
+    font-size:15pt;
+    display:none;
+    cursor:pointer;
+    }
+    
+    /* nav{
+    width:100%;
+    height:40px;
+    background:#f1f1f1;
+    float:left;
+    }
+    
+    nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-wrap:wrap;
+    }
+    
+    nav ul li{
+    width:120px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    }
+    
+    nav ul li a{
+    text-decoration:none;
+    display:block;
+    font-family:calibri;
+    color:black;
+    }
+    
+    .show{display:block;} 
+    
+    @media screen and (max-width:576px)
+    {
+    
+        nav{height:auto; display:none}
+        nav ul li{width:100%; border-bottom:1px solid black;}
+        .drop{display:block;}
+    }
+    /*-------------------------------nav-bar------------------------*/
+    /* -----------------------------About us------------------------*/
+ 
+    /* -----------------------------About us------------------------*/
+   
